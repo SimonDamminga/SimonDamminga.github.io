@@ -1,0 +1,32 @@
+body{
+    background-color: #F2FEF9;
+}
+h1{
+    display: table-cell;
+    font-size: 50px;
+    font-family: verdana;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content{
+    height: 440px;
+    width: 440px;
+    margin: 20px;
+    background-color: #01A15C;
+    display: table;
+}
+a{
+    display: table-cell;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: Verdana;
+}
