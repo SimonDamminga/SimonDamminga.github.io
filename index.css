@@ -1,5 +1,6 @@
 body{
     background-color: #F2FEF9;
+    -webkit-touch-callout: none !important;
 }
 h1{
     display: table-cell;
