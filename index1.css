@@ -1,0 +1,165 @@
+@media screen and (max-width: 1024px){
+    html, body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }    
+    body{
+        background-color: #001d4c;
+        background-size: cover;
+    }
+    img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    #image{
+        background-image: url(code1.jpg);
+    }
+    #info{
+        font-size: 30px;
+        font-family: verdana;
+        margin: 0;
+        text-align: center;
+    }
+    #content{
+        margin-top: 200px;
+        color: white;
+    }
+    #text{
+        font-family: verdana;
+        font-size: 25px;
+        text-align: center;
+        margin: 0px 30px 0px 30px;
+    }
+    #naam{
+        display: table-cell;
+        vertical-align: middle;
+        color: white;
+        font-family: verdana;
+        font-size: 80px;
+        text-align: center;
+    }   
+    #icons{
+        text-align: center;
+    }
+    a{
+        color: white;
+        margin: 0px 20px 0px 20px;
+        font-size: 60px;
+    }
+    a:hover{
+        colror: #0048bc;
+        cursor: pointer;
+    }
+    a:visited{
+        color: white;
+    }
+}
+@media screen and (min-width: 1024px){
+    /*body opmaak*/
+  
+    body{
+        background-color: #fff9f7;
+        background-image: url(background.png);
+        background-size: cover;
+        display: table;
+        position: fixed;
+    }   
+    #flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+    }    
+    #meer{
+        margin-left: 57px;
+    }
+    #fotovanmij{
+        width: 240px;
+        height: 280px;
+        border: 1px solid white;
+    }
+    #down{
+       padding-top: 5px;
+       position: fixed;
+    }      
+    /*text opmaak*/
+    h4{
+        color: white;
+        font-family: verdana;
+        margin-left: 39px;
+    }
+    h1{
+        margin: 0;
+        color: white;
+    }    
+
+    ul{
+        list-style-type: none;
+        color: white;
+        font-family: verdana;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    a{
+        color: white;
+        padding: 0px 20px 0px 20px; 
+    }
+    a:hover{
+        colror: #0048bc;
+        cursor: pointer;
+    }
+    a:visited{
+        color: white;
+    }
+    #overmijtexst{
+        color: white;
+        display: inline;
+    }
+    #table{
+        display: table-cell;
+    }
+    #titel{
+        margin-top: 20%;
+        font-family: Verdana;
+        font-size: 30px;    
+        text-align: center;
+        font-family: Verdana;
+    }
+    #icons{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .menu{
+        font-size: 25px;
+    }
+    #h-overmij{
+        height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    #home{
+        color: white;
+        font-size: 25px;
+    }
+    #title{
+        color: white;
+        text-align: center;
+        display: inline;
+        font-family: Verdana;
+        margin-top: 50px;
+    }
+    #hobbies{
+        margin-left: 20px;
+        color: white;
+        font-family: verdana;
+    }
+    i:hover{
+        color: #bc0000;
+        cursor: pointer;
+    }
+}
