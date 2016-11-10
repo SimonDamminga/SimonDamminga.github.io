@@ -31,12 +31,12 @@ function onMouseLeave3(){
 	document.getElementById('werk').style.cssText = 'font-size: 100px;';
 }
 function onMouseEnter4(){
-	document.getElementById('contact').innerHTML = 'Contact';
-	document.getElementById('contact').style.cssText = 'font-size: 50px; font-weight: bold;';
+	document.getElementById('nieuws').innerHTML = 'Nieuws';
+	document.getElementById('nieuws').style.cssText = 'font-size: 50px; font-weight: bold;';
 }
 function onMouseLeave4(){
-	document.getElementById('contact').innerHTML = '<i class="fa fa-phone" aria-hidden="true">';
-	document.getElementById('contact').style.cssText = 'font-size: 100px;';
+	document.getElementById('nieuws').innerHTML = '<i class="fa fa-phone" aria-hidden="true">';
+	document.getElementById('nieuws').style.cssText = 'font-size: 100px;';
 }
 function onMouseEnter5(){
 	document.getElementById('github').innerHTML = 'Github';
