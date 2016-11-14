@@ -35,7 +35,7 @@ function onMouseEnter4(){
 	document.getElementById('nieuws').style.cssText = 'font-size: 50px; font-weight: bold;';
 }
 function onMouseLeave4(){
-	document.getElementById('nieuws').innerHTML = '<i class="fa fa-phone" aria-hidden="true">';
+	document.getElementById('nieuws').innerHTML = '<i class="fa fa-newspaper-o" aria-hidden="true">';
 	document.getElementById('nieuws').style.cssText = 'font-size: 100px;';
 }
 function onMouseEnter5(){
