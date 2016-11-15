@@ -28,6 +28,22 @@ h1{
     background-image: url(foto/game.jpg);
     display: table;
 }
+#text1{
+    font-size: 30px;
+    font-family: verdana;
+    text-align: left;
+    display: inline;
+}
+#text2{
+    font-size: 40px;
+    font-family: verdana;
+    padding: 0;
+}
+#textvenster1{
+    width: 900px;
+    padding-left: 20px;
+
+}
 #fotovenster1{
     width: 920px;
     height: 300px;
@@ -238,6 +254,9 @@ li{
 #opdracht7:active{
     filter: invert(.8);
     transform: scale(1.1);
+}
+#image{
+    width: 920px;
 }
 .content{
     height: 440px;
