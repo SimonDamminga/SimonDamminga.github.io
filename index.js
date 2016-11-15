@@ -46,3 +46,6 @@ function onMouseLeave5(){
 	document.getElementById('github').innerHTML = '<i class="fa fa-github" aria-hidden="true">';
 	document.getElementById('github').style.cssText = 'font-size: 100px;';
 }
+function click(){
+	var image = document.getElementById('')
+}

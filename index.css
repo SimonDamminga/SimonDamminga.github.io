@@ -1,5 +1,5 @@
 body{
-    background-color: #F2FEF9;
+    background-color: #fff9f9;
     -webkit-touch-callout: none !important;
 }
 h1{
@@ -10,9 +10,19 @@ h1{
     text-align: center;
     color: white;
 }
+#fotovenster{
+    width: 920px;
+    height: 300px;
+    background-image: url(game.jpg);
+}
 #home{
     margin: 0;
     font-family: verdana;
+}
+#site{
+    height: 100px;
+    width: 440px;
+    display: none;
 }
 #home1{
     font-family: verdana;
@@ -34,6 +44,10 @@ p{
     font-family: verdana;
     font-weight: bold;
     -webkit-user-select: none;
+}
+#name1{
+    width: 920px;
+    height: 200px;
 }
 .overmij{
     display: table-cell;
@@ -181,16 +195,16 @@ li{
     height: 440px;
     width: 440px;
     margin: 20px;
-    background-color: #01A15C;
+    background-color: #990000;
     display: table;
     overflow: hidden;
     transition: .4s;
 }
 .content:hover{
-    background-color: #00874c;
+    background-color: #6d0000;
 }
 .content:active{
-    background-color: #00874c;
+    background-color: #6d0000;
 }
 a{
     display: table-cell;
