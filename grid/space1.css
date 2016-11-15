@@ -1,0 +1,131 @@
+* {margin: 0; padding: 0;}
+body {
+	background-image: url("bg.png");
+	font-family: Tahoma;
+}
+
+.frame{
+	background-color: rgba(0,128,0,0.4);
+	margin-left: 590px;
+	margin-right: 710px;
+	height: 720px;
+	width: 620px;
+	position: fixed;
+
+	/* put css-rules in this ccs-block here below */
+	
+}
+
+h1{
+	background-color: rgba(0,32,0,0.4);
+	line-height: 40px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	/* put css-rules in this ccs-block here below */
+	
+}
+
+h2 {
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: purple;
+	
+	/* put css-rules in this ccs-block here below */
+	
+}
+
+p{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+
+	
+	/* put css-rules in this ccs-block here below */
+
+}
+p.een{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	
+	/* put css-rules in this ccs-block here below */
+
+}
+p.twee{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	
+	/* put css-rules in this ccs-block here below */
+
+}
+p.drie{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	
+	/* put css-rules in this ccs-block here below */
+
+}
+p.vier{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	
+	/* put css-rules in this ccs-block here below */
+
+}
+p.vijf{
+	background-color: rgba(256,256,0,0.4);
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	
+	/* put css-rules in this ccs-block here below */
+
+}
