@@ -10,10 +10,53 @@ h1{
     text-align: center;
     color: white;
 }
+#gametab{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana;
+    font-size: 70px;
+    text-shadow: 10px 10px black;
+}
+#contenttab{
+    font-size: 50px;
+    font-weight: bold;
+}
 #fotovenster{
     width: 920px;
     height: 300px;
-    background-image: url(game.jpg);
+    background-image: url(foto/game.jpg);
+    display: table;
+}
+#fotovenster1{
+    width: 920px;
+    height: 300px;
+    background-image: url(foto/vloot.jpg);
+    display: table;
+}
+#fotovenster2{
+    width: 920px;
+    height: 300px;
+    background-image: url(foto/space2.jpg);
+    display: table;
+}
+#fotovenster3{
+    width: 920px;
+    height: 300px;
+    background-image: url(foto/handy.jpg);
+    display: table;
+}
+#fotovenster4{
+    width: 920px;
+    height: 300px;
+    background-image: url(foto/layout.jpg);
+    display: table;
+}
+#fotovenster5{
+    width: 920px;
+    height: 300px;
+    background-image: url(foto/robotarm.jpg);
+    display: table;
 }
 #home{
     margin: 0;
@@ -22,7 +65,6 @@ h1{
 #site{
     height: 100px;
     width: 440px;
-    display: none;
 }
 #home1{
     font-family: verdana;
@@ -96,20 +138,20 @@ li{
 }
 #bg{
     display: table;
-    background-image: url(code1.jpg);
+    background-image: url(foto/code1.jpg);
     width: 100%;
     height: 100%;
     overflow: hidden;
     transition: 0.7s;
 }
 #bg2{
-    background-image: url(personal.jpg);
+    background-image: url(foto/personal.jpg);
     width: 100%;
     height: 100%;
 }
 #opdracht1{
     display: table;
-    background-image: url(game.jpg);
+    background-image: url(foto/game.jpg);
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -121,7 +163,7 @@ li{
 }
 #opdracht2{
     display: table;
-    background-image: url(vloot.jpg);
+    background-image: url(foto/vloot.jpg);
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -133,7 +175,7 @@ li{
 }
 #opdracht3{
     display: table;
-    background-image: url(space2.jpg);
+    background-image: url(foto/space2.jpg);
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -145,7 +187,7 @@ li{
 }
 #opdracht4{
     display: table;
-    background-image: url(handy.jpg);
+    background-image: url(foto/handy.jpg);
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -157,7 +199,7 @@ li{
 }
 #opdracht5{
     display: table;
-    background-image: url(layout.jpg);
+    background-image: url(foto/layout.jpg);
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -169,7 +211,7 @@ li{
 }
 #opdracht6{
     display: table;
-    background-image: url(robotarm.jpg);
+    background-image: url(foto/robotarm.jpg);
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -181,7 +223,7 @@ li{
 }
 #opdracht7{
     display: table;
-    background-image: url(recepten.jpg);
+    background-image: url(foto/recepten.jpg);
     width: 100%;
     height: 100%;
     overflow: hidden;
