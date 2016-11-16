@@ -285,3 +285,15 @@ a{
     text-decoration: none;
     font-family: Verdana;
 }
+.content1{
+    height: 440px;
+    width: 920px;
+    margin: 20px;
+    background-color: #990000;
+    display: table;
+    overflow: hidden;
+    transition: .4s;   
+}
+#name2{
+    height: 
+}
