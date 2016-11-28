@@ -1,299 +1,561 @@
-body{
+@media screen and (max-width: 980px){
+   body{
     background-color: #fff9f9;
     -webkit-touch-callout: none !important;
-}
-h1{
-    display: table-cell;
-    font-size: 50px;
-    font-family: verdana;
-    vertical-align: middle;
-    text-align: center;
-    color: white;
-}
-#gametab{
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    font-family: verdana;
-    font-size: 70px;
-    text-shadow: 10px 10px black;
-}
-#contenttab{
-    font-size: 50px;
-    font-weight: bold;
-}
-#fotovenster{
-    width: 920px;
-    height: 300px;
-    background-image: url(foto/game.jpg);
-    display: table;
-}
-#text1{
-    font-size: 30px;
-    font-family: verdana;
-    text-align: left;
-    display: inline;
-}
-#text2{
-    font-size: 40px;
-    font-family: verdana;
-    padding: 0;
-}
-#textvenster1{
-    width: 900px;
-    padding-left: 20px;
+    }
+    h1{
+        display: table-cell;
+        font-size: 50px;
+        font-family: verdana;
+        vertical-align: middle;
+        text-align: center;
+        color: white;
+    }
+    #gametab{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        font-family: verdana;
+        font-size: 70px;
+        text-shadow: 10px 10px black;
+    }
+    #contenttab{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    #fotovenster{
+        width: 920px;
+        height: 300px;
+        background-image: url(foto/game.jpg);
+        display: table;
+    }
+    #text1{
+        font-size: 30px;
+        font-family: verdana;
+        text-align: left;
+        display: inline;
+    }
+    #text2{
+        font-size: 40px;
+        font-family: verdana;
+        padding: 0;
+    }
+    #textvenster1{
+        width: 900px;
+        padding-left: 20px;
 
+    }
+    #fotovenster1{
+        width: 920px;
+        height: 300px;
+        background-image: url(foto/vloot.jpg);
+        display: table;
+    }
+    #fotovenster2{
+        width: 920px;
+        height: 300px;
+        background-image: url(foto/space2.jpg);
+        display: table;
+    }
+    #fotovenster3{
+        width: 920px;
+        height: 300px;
+        background-image: url(foto/handy.jpg);
+        display: table;
+    }
+    #fotovenster4{
+        width: 920px;
+        height: 300px;
+        background-image: url(foto/layout.jpg);
+        display: table;
+    }
+    #fotovenster5{
+        width: 920px;
+        height: 300px;
+        background-image: url(foto/robotarm.jpg);
+        display: table;
+    }
+    #fotovenster6{
+        width: 920px;
+        height: 300px;
+        background-image: url(foto/recepten.jpg);
+        display: table;
+    }
+    #home{
+        text-align: center;
+        vertical-align: middle;
+        margin: 0;
+        font-family: verdana;
+    }
+    #site{
+        height: 100px;
+        width: 440px;
+    }
+    #home1{
+        font-family: verdana;
+        font-size: 65px;
+        font-weight: bold;
+    }
+    #flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    p{
+        z-index: 1;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 50px;
+        font-family: verdana;
+        font-weight: bold;
+        -webkit-user-select: none;
+    }
+    #name1{
+        width: 920px;
+        height: 200px;
+    }
+    .overmij{
+        display: table-cell;
+        font-weight: bold;
+        font-size: 50px;
+        vertical-align: middle;
+        text-align: center;
+    }
+    #black{
+        z-index: 1;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        color: black;
+        font-size: 50px;
+        font-family: verdana;
+        font-weight: bold;
+        -webkit-user-select: none;
+    }
+    #download{
+        font-family: verdana;
+        font-size: 40px;
+    }
+    #homebutton{
+        height: 200px;
+        width: 920px;
+    }
+    #textvenster{
+        width: 920px;
+        height: 100%;
+    }
+    h2{
+        padding-left: 20px;
+        font-family: verdana;
+        font-size: 40px;
+        color: white;
+    }
+    ul{
+        color: white;
+        font-size: 40px;
+        font-family: verdana;
+        padding-left: 20px;
+    }
+    li{
+        list-style-type: none;
+    }
+    #bg{
+        display: table;
+        background-image: url(foto/code1.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #bg2{
+        background-image: url(foto/personal.jpg);
+        width: 100%;
+        height: 100%;
+    }
+    #opdracht1{
+        display: table-cell;
+        background-image: url(foto/game.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht1:active{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht2{
+        display: table-cell;
+        background-image: url(foto/vloot.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht2:active{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht3{
+        display: table-cell;
+        background-image: url(foto/space2.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht3:active{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht4{
+        display: table-cell;
+        background-image: url(foto/handy.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        vertical-align: middle;
+        text-align: center;
+        transition: 0.7s;
+    }
+    #opdracht4:active{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht5{
+        display: table-cell;
+        background-image: url(foto/layout.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht5:active{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht6{
+        display: table-cell;
+        background-image: url(foto/robotarm.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht6:active{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht7{
+        display: table-cell;
+        background-image: url(foto/recepten.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht7:active{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #image{
+        width: 920px;
+    }
+    #image1{
+        width: 440px;
+    }
+    .content{
+        height: 440px;
+        width: 440px;
+        margin: 20px;
+        background-color: #990000;
+        display: table;
+        overflow: hidden;
+        transition: .4s;
+    }
+    .content:hover{
+        background-color: #6d0000;
+    }
+    .content:active{
+        background-color: #6d0000;
+    }
+    .section{
+        display: table-cell;
+        font-size: 100px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        font-family: Verdana; 
+    }
+    a{
+        font-size: 100px;
+        color: white;
+        text-decoration: none;
+        font-family: Verdana;
+    }
+    .content1{
+        height: 440px;
+        width: 920px;
+        margin: 20px;
+        background-color: #990000;
+        display: table;
+        overflow: hidden;
+        transition: .4s;   
+    }
+    #name2{
+        height: 
+    } 
 }
-#fotovenster1{
-    width: 920px;
-    height: 300px;
-    background-image: url(foto/vloot.jpg);
-    display: table;
-}
-#fotovenster2{
-    width: 920px;
-    height: 300px;
-    background-image: url(foto/space2.jpg);
-    display: table;
-}
-#fotovenster3{
-    width: 920px;
-    height: 300px;
-    background-image: url(foto/handy.jpg);
-    display: table;
-}
-#fotovenster4{
-    width: 920px;
-    height: 300px;
-    background-image: url(foto/layout.jpg);
-    display: table;
-}
-#fotovenster5{
-    width: 920px;
-    height: 300px;
-    background-image: url(foto/robotarm.jpg);
-    display: table;
-}
-#fotovenster6{
-    width: 920px;
-    height: 300px;
-    background-image: url(foto/recepten.jpg);
-    display: table;
-}
-#home{
-    margin: 0;
-    font-family: verdana;
-}
-#site{
-    height: 100px;
-    width: 440px;
-}
-#home1{
-    font-family: verdana;
-    font-size: 65px;
-    font-weight: bold;
-}
-#flex{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-p{
-    z-index: 1;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    font-size: 50px;
-    font-family: verdana;
-    font-weight: bold;
-    -webkit-user-select: none;
-}
-#name1{
-    width: 920px;
-    height: 200px;
-}
-.overmij{
-    display: table-cell;
-    font-weight: bold;
-    font-size: 50px;
-    vertical-align: middle;
-    text-align: center;
-}
-#black{
-    z-index: 1;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    color: black;
-    font-size: 50px;
-    font-family: verdana;
-    font-weight: bold;
-    -webkit-user-select: none;
-}
-#download{
-    font-family: verdana;
-    font-size: 40px;
-}
-#homebutton{
-    height: 200px;
-    width: 920px;
-}
-#textvenster{
-    width: 920px;
-    height: 100%;
-}
-h2{
-    padding-left: 20px;
-    font-family: verdana;
-    font-size: 40px;
-    color: white;
-}
-ul{
-    color: white;
-    font-size: 40px;
-    font-family: verdana;
-    padding-left: 20px;
-}
-li{
-    list-style-type: none;
-}
-#bg{
-    display: table;
-    background-image: url(foto/code1.jpg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.7s;
-}
-#bg2{
-    background-image: url(foto/personal.jpg);
-    width: 100%;
-    height: 100%;
-}
-#opdracht1{
-    display: table;
-    background-image: url(foto/game.jpg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.7s;
-}
-#opdracht1:active{
-    filter: invert(.8);
-    transform: scale(1.1);
-}
-#opdracht2{
-    display: table;
-    background-image: url(foto/vloot.jpg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.7s;
-}
-#opdracht2:active{
-    filter: invert(.8);
-    transform: scale(1.1);
-}
-#opdracht3{
-    display: table;
-    background-image: url(foto/space2.jpg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.7s;
-}
-#opdracht3:active{
-    filter: invert(.8);
-    transform: scale(1.1);
-}
-#opdracht4{
-    display: table;
-    background-image: url(foto/handy.jpg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.7s;
-}
-#opdracht4:active{
-    filter: invert(.8);
-    transform: scale(1.1);
-}
-#opdracht5{
-    display: table;
-    background-image: url(foto/layout.jpg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.7s;
-}
-#opdracht5:active{
-    filter: invert(.8);
-    transform: scale(1.1);
-}
-#opdracht6{
-    display: table;
-    background-image: url(foto/robotarm.jpg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.7s;
-}
-#opdracht6:active{
-    filter: invert(.8);
-    transform: scale(1.1);
-}
-#opdracht7{
-    display: table;
-    background-image: url(foto/recepten.jpg);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.7s;
-}
-#opdracht7:active{
-    filter: invert(.8);
-    transform: scale(1.1);
-}
-#image{
-    width: 920px;
-}
-#image1{
-    width: 440px;
-}
-.content{
-    height: 440px;
-    width: 440px;
-    margin: 20px;
-    background-color: #990000;
-    display: table;
-    overflow: hidden;
-    transition: .4s;
-}
-.content:hover{
-    background-color: #6d0000;
-}
-.content:active{
-    background-color: #6d0000;
-}
-a{
-    display: table-cell;
-    font-size: 100px;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-    font-family: Verdana;
-}
-.content1{
-    height: 440px;
-    width: 920px;
-    margin: 20px;
-    background-color: #990000;
-    display: table;
-    overflow: hidden;
-    transition: .4s;   
-}
-#name2{
-    height: 
+@media screen and (min-width: 981px){
+    body{
+        background-color: #fff9f9;
+        -webkit-touch-callout: none !important;
+    }       
+    #name{
+        display: table;
+        width: 70%;
+        height: 220px;
+        text-align: center;
+    }
+    #name:hover{
+        background-color: #990000;
+    }
+    h1{
+        display: table-cell;
+        vertical-align: middle;
+        font-family: verdana;
+        color: white;
+    }
+/*Opmaak home*/
+    #flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .content{
+        height: 220px;
+        width: 70%;
+        margin: 20px;
+        background-color: #990000;
+        display: table;
+        overflow: hidden;
+        transition: .4s;
+    }
+    .content:hover{
+        background-color: #6d0000;
+        height: 250px;
+    }
+    .content:active{
+        background-color: #6d0000;
+    }
+    a{
+        text-shadow: 5px 5px black;
+        display: table-cell;
+        font-size: 100px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        font-family: Verdana;
+    }
+    #werk{
+        color: black;
+        text-shadow: 5px 5px white;
+    }
+    #bg{
+        display: table;
+        background-image: url(foto/code2.png);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #portfolio{
+        display: table;
+        background-image: url(foto/portfolio.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+        filter: blur(2px);        
+    }
+    #portfolio:hover{
+        filter: blur(0px);
+    }
+    #news{
+        display: table;
+        background-image: url(foto/news.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+        filter: blur(2px);        
+    }
+    #news:hover{
+        filter: blur(0px);
+    }
+    #git{
+        display: table;
+        background-image: url(foto/git.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+        filter: blur(2px);        
+    }
+    #git:hover{
+        filter: blur(0px);
+    }
+    #files{
+        display: table;
+        background-image: url(foto/pages.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+        filter: blur(2px);        
+    }
+    #files:hover{
+        filter: blur(0px);
+    }
+    #schoolplaatje{
+        display: table;
+        background-image: url(foto/opleiding.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+        filter: blur(2px);
+    }
+    #schoolplaatje:hover{
+        filter: blur(0px);
+    }
+    #werkplaatje{
+        display: table;
+        background-image: url(foto/werk.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+        filter: blur(2px);
+    }
+    #werkplaatje:hover{
+        filter: blur(0px);
+    }
+/*Opmaak page2*/
+    #opdracht1{
+        display: table;
+        background-image: url(foto/game.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht1:hover{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht2{
+        display: table;
+        background-image: url(foto/vloot.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht2:hover{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht3{
+        display: table;
+        background-image: url(foto/space2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht3:hover{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht4{
+        display: table;
+        background-image: url(foto/handy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht4:hover{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht5{
+        display: table;
+        background-image: url(foto/layout.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht5:hover{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht6{
+        display: table;
+        background-image: url(foto/robotarm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+        text-shadow: 5px 5px white;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht6:hover{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
+    #opdracht7{
+        display: table;
+        background-image: url(foto/recepten.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht7:hover{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
 }
