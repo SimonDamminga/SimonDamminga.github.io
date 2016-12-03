@@ -153,6 +153,7 @@
         color: white;
     }
     ul{
+        list-style-type: none;
         color: white;
         font-size: 40px;
         font-family: verdana;
@@ -319,6 +320,75 @@
     }
     #name2{
         height: 
+    }
+    #position-graph{
+        display: flex;
+        margin-left: 35px;
+        color: white;
+        font-family: verdana;
+    }
+    #graph{
+        width: 920px;
+    }
+    #graph1{   
+        margin-right: 5px;
+        height: 35px;
+        text-align: center;
+        background-color: black;
+        width: 100px;
+        transition: 0.5s;
+    }
+    #graph1:hover{
+        height: 80px;
+        border-radius: 5px;
+        background-color: #c4bd00;
+    }
+    #graph2{
+        margin-right: 5px;
+        height: 35px;
+        text-align: center;
+        background-color: black;
+        width: 100px;
+        transition: 0.5s;
+    }
+    #graph2:hover{
+        border-radius: 5px;
+        height: 80px;
+        background-color: #c4bd00;
+    }
+    #graph3{
+        margin-right: 5px;
+        height: 35px;
+        text-align: center;
+        background-color: black;
+        width: 100px;
+        transition: 0.5s;
+    }
+    #graph3:hover{
+        border-radius: 5px;
+        height: 50px;
+        background-color: #ff3f00;
+    }
+    #graph4{
+        margin-right: 5px;
+        height: 35px;
+        text-align: center;
+        background-color: black;
+        width: 130px;
+        transition: 0.5s;
+    }
+    #graph4:hover{
+        border-radius: 5px;
+        height: 35px;
+        background-color: blue;
+    }
+    #ervaring{
+        color: white;
+        font-family: verdana;
+    }
+    .graph-text{
+        font-size: 30px;
+        margin: 7px 0px 0px 0px;
     } 
 }
 @media screen and (min-width: 981px){
@@ -328,7 +398,7 @@
     }       
     #name{
         display: table;
-        width: 70%;
+        width: 100%;
         height: 220px;
         text-align: center;
     }
@@ -349,7 +419,7 @@
     }
     .content{
         height: 220px;
-        width: 70%;
+        width: 100%;
         margin: 20px;
         background-color: #990000;
         display: table;
@@ -458,6 +528,9 @@
         filter: blur(0px);
     }
 /*Opmaak page2*/
+    ul{
+        list-style-type: none;
+    }
     #opdracht1{
         display: table;
         background-image: url(foto/game.jpg);
@@ -465,12 +538,13 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        filter: blur(5px);
         overflow: hidden;
-        transition: 0.7s;
+        transition: 0.5s;
     }
     #opdracht1:hover{
-        filter: invert(.8);
-        transform: scale(1.1);
+        filter: blur(0px);
+        transform: scale(1.05);
     }
     #opdracht2{
         display: table;
@@ -479,12 +553,13 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        filter: blur(5px);
         overflow: hidden;
-        transition: 0.7s;
+        transition: 0.5s;
     }
     #opdracht2:hover{
-        filter: invert(.8);
-        transform: scale(1.1);
+        filter: blur(0px);
+        transform: scale(1.05);
     }
     #opdracht3{
         display: table;
@@ -493,12 +568,13 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        filter: blur(5px);
         overflow: hidden;
-        transition: 0.7s;
+        transition: 0.5s;
     }
     #opdracht3:hover{
-        filter: invert(.8);
-        transform: scale(1.1);
+        filter: blur(0px);
+        transform: scale(1.05);
     }
     #opdracht4{
         display: table;
@@ -507,12 +583,13 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        filter: blur(5px);
         overflow: hidden;
-        transition: 0.7s;
+        transition: 0.5s;
     }
     #opdracht4:hover{
-        filter: invert(.8);
-        transform: scale(1.1);
+        filter: blur(0px);
+        transform: scale(1.05);
     }
     #opdracht5{
         display: table;
@@ -521,12 +598,13 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        filter: blur(5px)
         overflow: hidden;
-        transition: 0.7s;
+        transition: 0.5s;
     }
     #opdracht5:hover{
-        filter: invert(.8);
-        transform: scale(1.1);
+        filter: blur(0px);
+        transform: scale(1.05);
     }
     #opdracht6{
         display: table;
@@ -537,12 +615,13 @@
         text-shadow: 5px 5px white;
         width: 100%;
         height: 100%;
+        filter: blur(5px);
         overflow: hidden;
-        transition: 0.7s;
+        transition: 0.5s;
     }
     #opdracht6:hover{
-        filter: invert(.8);
-        transform: scale(1.1);
+        filter: blur(0px);
+        transform: scale(1.05);
     }
     #opdracht7{
         display: table;
@@ -551,11 +630,177 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        filter: blur(5px);
         overflow: hidden;
-        transition: 0.7s;
+        transition: 0.5s;
     }
     #opdracht7:hover{
-        filter: invert(.8);
-        transform: scale(1.1);
+        filter: blur(0px);
+        transform: scale(1.05);
+    }
+    #fotovenster{
+        width: 100%;
+        height: 300px;
+        background-image: url(foto/game.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: table;
+    }
+    #fotovenster1{
+        width: 100%;
+        height: 300px;
+        background-image: url(foto/vloot.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: table;
+    }
+    #fotovenster2{
+        width: 100%;
+        height: 300px;
+        background-image: url(foto/space2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: table;
+    }
+    #fotovenster3{
+        width: 100%;
+        height: 300px;
+        background-image: url(foto/handy.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: table;
+    }
+    #fotovenster4{
+        width: 100%;
+        height: 300px;
+        background-image: url(foto/layout.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: table;
+    }
+    #fotovenster5{
+        width: 100%;
+        height: 300px;
+        background-image: url(foto/robotarm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: table;
+    }
+    #fotovenster6{
+        width: 100%;
+        height: 300px;
+        background-image: url(foto/recepten.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: table;
+    }
+    #gametab{
+        color: white;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        font-family: verdana;
+        font-size: 70px;
+        text-shadow: 10px 10px black;
+    }
+    #textvenster{
+        font-family: verdana;
+        font-size: 20px;
+        color: white;
+    }
+    #download{
+        font-size: 20px;
+        font-family: verdana;
+        text-shadow: none;
+    }
+    }
+    h2{
+        margin-left: 35px;
+    }
+    #text2{
+        font-family: verdana;
+        font-size: 30px;
+        color: white;
+    }
+    #text1{
+        font-size: 20px;
+        color: white;
+        font-family: verdana;
+        margin-left: 35px;
+        max-width: 1000px;
+    }
+    #image1{
+        height: 5px;
+    }
+    #image1:hover{
+        height: 420px;
+    }
+    #position-graph{
+        display: flex;
+        margin-left: 35px;
+        color: white;
+        font-family: verdana;
+    }
+    #graph1{   
+        margin-right: 5px;
+        height: 35px;
+        text-align: center;
+        background-color: black;
+        width: 50px;
+        transition: 0.5s;
+    }
+    #graph1:hover{
+        height: 80px;
+        border-radius: 5px;
+        background-color: #c4bd00;
+    }
+    #graph2{
+        margin-right: 5px;
+        height: 35px;
+        text-align: center;
+        background-color: black;
+        width: 50px;
+        transition: 0.5s;
+    }
+    #graph2:hover{
+        border-radius: 5px;
+        height: 80px;
+        background-color: #c4bd00;
+    }
+    #graph3{
+        margin-right: 5px;
+        height: 35px;
+        text-align: center;
+        background-color: black;
+        width: 50px;
+        transition: 0.5s;
+    }
+    #graph3:hover{
+        border-radius: 5px;
+        height: 50px;
+        background-color: #ff3f00;
+    }
+    #graph4{
+        margin-right: 5px;
+        height: 35px;
+        text-align: center;
+        background-color: black;
+        width: 70px;
+        transition: 0.5s;
+    }
+    #graph4:hover{
+        border-radius: 5px;
+        height: 35px;
+        background-color: blue;
+    }
+    #ervaring{
+        color: white;
+        font-family: verdana;
+    }
+    .graph-text{
+        margin: 7px 0px 0px 0px;
+    }
+    .graph-text:hover{
+        cursor: default;
     }
 }
