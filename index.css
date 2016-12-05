@@ -19,6 +19,14 @@
         font-size: 70px;
         text-shadow: 10px 10px black;
     }
+    #article{
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 70px;
+        font-family: verdana;
+        font-weight: bold;
+        text-shadow: 5px 5px black;
+    }
     #contenttab{
         font-size: 50px;
         font-weight: bold;
@@ -36,7 +44,7 @@
         display: inline;
     }
     #text2{
-        font-size: 40px;
+        font-size: 70px;
         font-family: verdana;
         padding: 0;
     }
@@ -82,6 +90,7 @@
         display: table;
     }
     #home{
+        display: table-cell;
         text-align: center;
         vertical-align: middle;
         margin: 0;
@@ -92,6 +101,9 @@
         width: 440px;
     }
     #home1{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
         font-family: verdana;
         font-size: 65px;
         font-weight: bold;
@@ -119,7 +131,7 @@
     .overmij{
         display: table-cell;
         font-weight: bold;
-        font-size: 50px;
+        font-size: 100px;
         vertical-align: middle;
         text-align: center;
     }
@@ -275,9 +287,11 @@
     }
     #image{
         width: 920px;
+        height: 440px;
     }
     #image1{
         width: 440px;
+        height: 440px;
     }
     .content{
         height: 440px;
@@ -436,7 +450,8 @@
     a{
         text-shadow: 5px 5px black;
         display: table-cell;
-        font-size: 100px;
+        font-size: 50px;
+        font-weight: bold;
         color: white;
         text-align: center;
         vertical-align: middle;
@@ -452,6 +467,16 @@
         background-image: url(foto/code2.png);
         width: 100%;
         height: 100%;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #bg1{
+        display: table;
+        background-image: url(foto/wall3.jpg);
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
         overflow: hidden;
         transition: 0.7s;
     }
@@ -478,6 +503,51 @@
     }
     #news:hover{
         filter: blur(0px);
+    }
+#news1{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news1.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #news2{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news2.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #news3{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news3.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #news4{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news4.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #news5{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news5.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
     #git{
         display: table;
@@ -729,12 +799,6 @@
         margin-left: 35px;
         max-width: 1000px;
     }
-    #image1{
-        height: 5px;
-    }
-    #image1:hover{
-        height: 420px;
-    }
     #position-graph{
         display: flex;
         margin-left: 35px;
@@ -802,5 +866,56 @@
     }
     .graph-text:hover{
         cursor: default;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .home{
+        font-size: 100px;
+    }
+    #news1{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news1.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #news2{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news2.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #news3{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news3.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #news4{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news4.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #news5{
+        display: table;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(foto/news5.jpg);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
 }
