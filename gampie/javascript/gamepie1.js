@@ -393,7 +393,7 @@ function supersoft(){
 	volgende.setAttribute("onClick", "javascript:racefinish1();");
 }
 function racefinish1(){
-	document.getElementById('titel').innerHTML = 'Je bent 2e geworden en dus ben je wereldkampioen!';
+	document.getElementById('titel').innerHTML = 'Je bent 2e geworden in de race maar 1e in het kampioenschap dus ben je wereldkampioen!';
 	var verberg = document.getElementById('een');
 	var verberg1 = document.getElementById('twee');
 	var opnieuw = document.getElementById('start-knop');
@@ -413,7 +413,7 @@ function Soft2(){
 	volgende.setAttribute("onClick", "javascript:racefinish2();");
 }
 function racefinish2(){
-	document.getElementById('titel').innerHTML = 'Je bent 3e geworden en dus ben je wereldkampioen 2e in het kampioenschap geworden';
+	document.getElementById('titel').innerHTML = 'Je bent 3e geworden en dus ben 2e in het wereldkampioenschap geworden';
 	var verberg = document.getElementById('een');
 	var verberg1 = document.getElementById('twee');
 	var opnieuw = document.getElementById('start-knop');
