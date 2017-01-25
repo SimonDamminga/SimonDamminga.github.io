@@ -96,6 +96,12 @@
         background-image: url(foto/recepten.jpg);
         display: table;
     }
+    #fotovenster7{
+        width: 920px;
+        height: 300px;
+        background-image: url(foto/hoe-laat-is-het.png);
+        display: table;
+    }
     #home{
         display: table-cell;
         text-align: center;
