@@ -293,6 +293,20 @@
         filter: invert(.8);
         transform: scale(1.1);
     }
+    #opdracht8{
+        display: table-cell;
+        background-image: url(foto/recepten.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #opdracht8:active{
+        filter: invert(.8);
+        transform: scale(1.1);
+    }
     #image{
         width: 920px;
         height: 440px;
