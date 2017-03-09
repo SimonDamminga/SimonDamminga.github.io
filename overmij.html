@@ -1,26 +1,54 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://use.fontawesome.com/00fe25a6ad.js"></script>
-    <script src="index.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>portfolio</title>
+	<script src="https://use.fontawesome.com/00fe25a6ad.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="icon" href="icon.png" type="image/png" sizes="128x128">
+	<title>Mijn portfolio</title>
 </head>
-<body id="flex">
-    <div class="content" id="name1">
-        <a id="home1" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-    </div>
-    <div class="content" id="block1">
-            <a href="persoonlijk.html" class="overmij">Persoonlijke informatie</a>
-    </div>
-    <div class="content" id="block2">
-        <a href="hobbies.html" class="overmij">Hobbies</a>
-    </div>
-    <div class="content" id="block3">
-        <a href="contact.html" class="overmij">Contact</a>
-    </div>
-    <div class="content" id="image1">
-        <div id="bg2">   
-        </div>
-    </div>
+<body id="bg-1">
+	<header>
+		<a href="index.html"><p>Home</p></a>
+		<a href="overmij.html"><p id="home">Over mij</p></a>
+		<a href="opdrachten.html"><p>Opdrachten</p></a>
+		<a href="https://github.com/SimonDamminga"><p>Github</p></a>
+	</header>
+	<main>
+		<section id="flex">
+			<section id="section-1">
+				<img src="afbeeldingen/profile.png">
+			</section>
+			<article id="section-2">
+				<p id="doei">Hallo, mijn naam is Simon Damminga ik ben 17 jaar en ik woon in Bleskensgraaf. Ik doe de opleiding AO op het Da Vinci college in Dordrecht.<br><br> Deze opleiding heb ik gekozen omdat ik programmeren altijd al interesant heb gevonden en ik wilde altijd al zelf programma's schrijven.</p> 
+			</article>
+			<section id="section-3">
+				<h2>Ervaring</h2>
+				<section id="html">
+					<section id="bgcolor-1">
+						<p class="procent">60%</p>
+					</section>
+					<p class="ervaring-text">HTML</p>
+				</section>
+				<section id="css"> 
+					<section id="bgcolor-2">
+						<p class="procent">60%</p>
+					</section>
+					<p class="ervaring-text">CSS</p>
+				</section>
+				<section id="js">
+					<section id="bgcolor-3">
+						<p class="procent">40%</p>
+					</section>
+					<p class="ervaring-text">JS</p>
+				</section>
+			</section>
+			<article id="section-4">
+				<h2>Hobby's</h2>
+				<p id="hobby-text"> - - comming soon - - </p>
+			</article>			
+		</section>
+	</main>
+</body> 
 </html>

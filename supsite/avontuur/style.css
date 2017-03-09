@@ -1,0 +1,43 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {     		 
+	font-family: sans-serif;
+}
+
+#level_title {
+	font-size: 18px;		
+	font-weight: bold;
+}
+button:hover{
+	cursor: pointer;
+}
+.nav{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.button:hover{
+	cursor: pointer;
+	background-color: red;
+}
+.button{
+	color: #dbdbdb;
+	background-color: #262626;
+	margin: 20px;
+	padding: 10px;
+	border: 4px solid black;
+	border-radius: 10px;
+	display: inline;
+}
+.key:hover{
+	cursor: pointer;
+}
+.key{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 1200px;
+	color: orange;
+}

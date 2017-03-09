@@ -1,957 +1,254 @@
-@media screen and (max-width: 980px){
-   body{
-    background-color: #fff9f9;
-    -webkit-touch-callout: none !important;
-    }
-    #game, #vloot, #space, #tools, #layout, #robot, #food {
-    font-size: 100px;
-    text-shadow: 5px 5px black;
-    }
-    #textvenster1{
-        width: 860px;
-        padding-left: 60px;
-    }
-    h1{
-        display: table-cell;
-        font-size: 50px;
-        font-family: verdana;
-        vertical-align: middle;
-        text-align: center;
-        color: white;
-    }
-    #gametab{
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        font-family: verdana;
-        font-size: 70px;
-        text-shadow: 10px 10px black;
-    }
-    #article{
-        display: table-cell;
-        vertical-align: middle;
-        font-size: 70px;
-        font-family: verdana;
-        font-weight: bold;
-        text-shadow: 5px 5px black;
-    }
-    #contenttab{
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        font-size: 50px;
-        font-weight: bold;
-    }
-    #fotovenster{
-        width: 920px;
-        height: 300px;
-        background-image: url(foto/game.jpg);
-        display: table;
-    }
-    #text1{
-        font-size: 30px;
-        font-family: verdana;
-        text-align: left;
-        display: inline;
-    }
-    #text2{
-        font-size: 70px;
-        font-family: verdana;
-        padding: 0;
-    }
-+
-    #fotovenster1{
-        width: 920px;
-        height: 300px;
-        background-image: url(foto/vloot.jpg);
-        display: table;
-    }
-    #fotovenster2{
-        width: 920px;
-        height: 300px;
-        background-image: url(foto/space2.jpg);
-        display: table;
-    }
-    #fotovenster3{
-        width: 920px;
-        height: 300px;
-        background-image: url(foto/handy.jpg);
-        display: table;
-    }
-    #fotovenster4{
-        width: 920px;
-        height: 300px;
-        background-image: url(foto/layout.jpg);
-        display: table;
-    }
-    #fotovenster5{
-        width: 920px;
-        height: 300px;
-        background-image: url(foto/robotarm.jpg);
-        display: table;
-    }
-    #fotovenster6{
-        width: 920px;
-        height: 300px;
-        background-image: url(foto/recepten.jpg);
-        display: table;
-    }
-    #fotovenster7{
-        width: 920px;
-        height: 300px;
-        background-image: url(foto/hoe-laat-is-het.png);
-        display: table;
-    }
-    #home{
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        margin: 0;
-        font-family: verdana;
-    }
-    #site{
-        display: table;
-        height: 100px;
-        width: 440px;
-    }
-    #home1{
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        font-family: verdana;
-        font-size: 65px;
-        font-weight: bold;
-    }
-    #flex{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    p{
-        z-index: 1;
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 50px;
-        font-family: verdana;
-        font-weight: bold;
-        -webkit-user-select: none;
-    }
-    #name1{
-        width: 920px;
-        height: 200px;
-    }
-    .overmij{
-        display: table-cell;
-        font-weight: bold;
-        font-size: 50px;
-        vertical-align: middle;
-        text-align: center;
-    }
-    #black{
-        z-index: 1;
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        color: black;
-        font-size: 50px;
-        font-family: verdana;
-        font-weight: bold;
-        -webkit-user-select: none;
-    }
-    #download{
-        font-family: verdana;
-        font-size: 40px;
-    }
-    #homebutton{
-        height: 200px;
-        width: 920px;
-    }
-    #textvenster{
-        width: 920px;
-        height: 100%;
-    }
-    h2{
-        padding-left: 20px;
-        font-family: verdana;
-        font-size: 40px;
-        color: white;
-    }
-    ul{
-        list-style-type: none;
-        color: white;
-        font-size: 40px;
-        font-family: verdana;
-        padding-left: 60px;
-    }
-    li{
-        list-style-type: none;
-    }
-    #bg{
-        display: table;
-        background-image: url(foto/code1.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #bg2{
-        background-image: url(foto/personal.jpg);
-        width: 100%;
-        height: 100%;
-    }
-    #opdracht1{
-        display: table-cell;
-        background-image: url(foto/game.jpg);
-        width: 100%;
-        height: 100%;
-        vertical-align: middle;
-        text-align: center;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #opdracht1:active{
-        filter: invert(.8);
-        transform: scale(1.1);
-    }
-    #opdracht2{
-        display: table-cell;
-        background-image: url(foto/vloot.jpg);
-        width: 100%;
-        height: 100%;
-        vertical-align: middle;
-        text-align: center;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #opdracht2:active{
-        filter: invert(.8);
-        transform: scale(1.1);
-    }
-    #opdracht3{
-        display: table-cell;
-        background-image: url(foto/space2.jpg);
-        width: 100%;
-        height: 100%;
-        vertical-align: middle;
-        text-align: center;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #opdracht3:active{
-        filter: invert(.8);
-        transform: scale(1.1);
-    }
-    #opdracht4{
-        display: table-cell;
-        background-image: url(foto/handy.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        vertical-align: middle;
-        text-align: center;
-        transition: 0.7s;
-    }
-    #opdracht4:active{
-        filter: invert(.8);
-        transform: scale(1.1);
-    }
-    #opdracht5{
-        display: table-cell;
-        background-image: url(foto/layout.jpg);
-        width: 100%;
-        height: 100%;
-        vertical-align: middle;
-        text-align: center;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #opdracht5:active{
-        filter: invert(.8);
-        transform: scale(1.1);
-    }
-    #opdracht6{
-        display: table-cell;
-        background-image: url(foto/robotarm.jpg);
-        width: 100%;
-        height: 100%;
-        vertical-align: middle;
-        text-align: center;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #opdracht6:active{
-        filter: invert(.8);
-        transform: scale(1.1);
-    }
-    #opdracht7{
-        display: table-cell;
-        background-image: url(foto/recepten.jpg);
-        width: 100%;
-        height: 100%;
-        vertical-align: middle;
-        text-align: center;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #opdracht7:active{
-        filter: invert(.8);
-        transform: scale(1.1);
-    }
-    #opdracht8{
-        display: table-cell;
-        background-image: url(foto/hoe-laat-is-het.png);
-        width: 100%;
-        height: 100%;
-        vertical-align: middle;
-        text-align: center;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #opdracht8:active{
-        filter: invert(.8);
-        transform: scale(1.1);
-    }
-    #image{
-        width: 920px;
-        height: 440px;
-    }
-    #image1{
-        width: 440px;
-        height: 440px;
-    }
-    .content{
-        height: 440px;
-        width: 440px;
-        margin: 20px;
-        background-color: #990000;
-        display: table;
-        overflow: hidden;
-        transition: .4s;
-    }
-    .content:hover{
-        background-color: #6d0000;
-    }
-    .content:active{
-        background-color: #6d0000;
-    }
-    .section{
-        display: table-cell;
-        font-size: 100px;
-        color: white;
-        text-align: center;
-        vertical-align: middle;
-        text-decoration: none;
-        font-family: Verdana; 
-    }
-    a{
-        font-size: 100px;
-        color: white;
-        text-decoration: none;
-        font-family: Verdana;
-    }
-    .content1{
-        height: 440px;
-        width: 920px;
-        margin: 20px;
-        background-color: #990000;
-        display: table;
-        overflow: hidden;
-        transition: .4s;   
-    }
-    #name2{
-        height: 
-    }
-    #position-graph{
-        display: flex;
-        margin-left: 35px;
-        color: white;
-        font-family: verdana;
-    }
-    #graph{
-        width: 920px;
-    }
-    #graph1{   
-        margin-right: 5px;
-        height: 35px;
-        text-align: center;
-        background-color: black;
-        width: 100px;
-        transition: 0.5s;
-    }
-    #graph1:hover{
-        height: 80px;
-        border-radius: 5px;
-        background-color: #c4bd00;
-    }
-    #graph2{
-        margin-right: 5px;
-        height: 35px;
-        text-align: center;
-        background-color: black;
-        width: 100px;
-        transition: 0.5s;
-    }
-    #graph2:hover{
-        border-radius: 5px;
-        height: 80px;
-        background-color: #c4bd00;
-    }
-    #graph3{
-        margin-right: 5px;
-        height: 35px;
-        text-align: center;
-        background-color: black;
-        width: 100px;
-        transition: 0.5s;
-    }
-    #graph3:hover{
-        border-radius: 5px;
-        height: 50px;
-        background-color: #ff3f00;
-    }
-    #graph4{
-        margin-right: 5px;
-        height: 35px;
-        text-align: center;
-        background-color: black;
-        width: 130px;
-        transition: 0.5s;
-    }
-    #graph4:hover{
-        border-radius: 5px;
-        height: 35px;
-        background-color: blue;
-    }
-    #ervaring{
-        color: white;
-        font-family: verdana;
-    }
-    .graph-text{
-        font-size: 30px;
-        margin: 7px 0px 0px 0px;
-    } 
+html{
+	user-select: none;
 }
-@media screen and (min-width: 981px){
-    body{
-        background-color: #fff9f9;
-        -webkit-touch-callout: none !important;
-    }  
-    #textvenster1{
-        width: 100%;
-        padding-left: 60px;
-    }
-    #name{
-        display: table;
-        width: 100%;
-        height: 220px;
-        text-align: center;
-    }
-    #name:hover{
-        background-color: #990000;
-    }
-    h1{
-        display: table-cell;
-        vertical-align: middle;
-        font-family: verdana;
-        color: white;
-    }
-    #flex{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .content{
-        height: 220px;
-        width: 100%;
-        margin: 20px;
-        background-color: #990000;
-        display: table;
-        overflow: hidden;
-        transition: .4s;
-    }
-    .content:hover{
-        background-color: #6d0000;
-        height: 250px;
-    }
-    .content:active{
-        background-color: #6d0000;
-    }
-    a{
-        text-shadow: 5px 5px black;
-        display: table-cell;
-        font-size: 50px;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-        vertical-align: middle;
-        text-decoration: none;
-        font-family: Verdana;
-    }
-    #werk{
-        color: black;
-        text-shadow: 5px 5px white;
-    }
-    #bg{
-        display: table;
-        background-image: url(foto/code2.png);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #bg1{
-        display: table;
-        background-image: url(foto/wall3.jpg);
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        transition: 0.7s;
-    }
-    #portfolio{
-        display: table;
-        background-image: url(foto/portfolio.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transition: 0.7s;
-        filter: blur(2px);        
-    }
-    #portfolio:hover{
-        filter: blur(0px);
-    }
-    #news{
-        display: table;
-        background-image: url(foto/news.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transition: 0.7s;
-        filter: blur(2px);        
-    }
-    #news:hover{
-        filter: blur(0px);
-    }
-    #news1{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news1.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #news2{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news2.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #news3{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news3.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #news4{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news4.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #news5{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news5.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #git{
-        display: table;
-        background-image: url(foto/git.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transition: 0.7s;
-        filter: blur(2px);        
-    }
-    #git:hover{
-        filter: blur(0px);
-    }
-    #files{
-        display: table;
-        background-image: url(foto/pages.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transition: 0.7s;
-        filter: blur(2px);        
-    }
-    #files:hover{
-        filter: blur(0px);
-    }
-    #schoolplaatje{
-        display: table;
-        background-image: url(foto/opleiding.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transition: 0.7s;
-        filter: blur(2px);
-    }
-    #schoolplaatje:hover{
-        filter: blur(0px);
-    }
-    #werkplaatje{
-        display: table;
-        background-image: url(foto/werk.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transition: 0.7s;
-        filter: blur(2px);
-    }
-    #werkplaatje:hover{
-        filter: blur(0px);
-    }
-    ul{
-        list-style-type: none;
-    }
-    #opdracht1{
-        display: table;
-        background-image: url(foto/game.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        filter: blur(5px);
-        overflow: hidden;
-        transition: 0.5s;
-    }
-    #opdracht1:hover{
-        filter: blur(0px);
-        transform: scale(1.05);
-    }
-    #opdracht2{
-        display: table;
-        background-image: url(foto/vloot.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        filter: blur(5px);
-        overflow: hidden;
-        transition: 0.5s;
-    }
-    #opdracht2:hover{
-        filter: blur(0px);
-        transform: scale(1.05);
-    }
-    #opdracht3{
-        display: table;
-        background-image: url(foto/space2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        filter: blur(5px);
-        overflow: hidden;
-        transition: 0.5s;
-    }
-    #opdracht3:hover{
-        filter: blur(0px);
-        transform: scale(1.05);
-    }
-    #opdracht4{
-        display: table;
-        background-image: url(foto/handy.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        filter: blur(5px);
-        overflow: hidden;
-        transition: 0.5s;
-    }
-    #opdracht4:hover{
-        filter: blur(0px);
-        transform: scale(1.05);
-    }
-    #opdracht5{
-        display: table;
-        background-image: url(foto/layout.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        filter: blur(5px);
-        overflow: hidden;
-        transition: 0.5s;
-    }
-    #opdracht5:hover{
-        filter: blur(0px);
-        transform: scale(1.05);
-    }
-    #opdracht6{
-        display: table;
-        background-image: url(foto/robotarm.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: black;
-        text-shadow: 5px 5px white;
-        width: 100%;
-        height: 100%;
-        filter: blur(5px);
-        overflow: hidden;
-        transition: 0.5s;
-    }
-    #opdracht6:hover{
-        filter: blur(0px);
-        transform: scale(1.05);
-    }
-    #opdracht7{
-        display: table;
-        background-image: url(foto/recepten.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        filter: blur(5px);
-        overflow: hidden;
-        transition: 0.5s;
-    }
-    #opdracht7:hover{
-        filter: blur(0px);
-        transform: scale(1.05);
-    }
-    #fotovenster{
-        width: 100%;
-        height: 300px;
-        background-image: url(foto/game.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: table;
-    }
-    #fotovenster1{
-        width: 100%;
-        height: 300px;
-        background-image: url(foto/vloot.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: table;
-    }
-    #fotovenster2{
-        width: 100%;
-        height: 300px;
-        background-image: url(foto/space2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: table;
-    }
-    #fotovenster3{
-        width: 100%;
-        height: 300px;
-        background-image: url(foto/handy.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: table;
-    }
-    #fotovenster4{
-        width: 100%;
-        height: 300px;
-        background-image: url(foto/layout.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: table;
-    }
-    #fotovenster5{
-        width: 100%;
-        height: 300px;
-        background-image: url(foto/robotarm.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: table;
-    }
-    #fotovenster6{
-        width: 100%;
-        height: 300px;
-        background-image: url(foto/recepten.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: table;
-    }
-    #gametab{
-        color: white;
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        font-family: verdana;
-        font-size: 70px;
-        text-shadow: 10px 10px black;
-    }
-    #textvenster{
-        font-family: verdana;
-        font-size: 20px;
-        color: white;
-    }
-    #download{
-        font-size: 20px;
-        font-family: verdana;
-        text-shadow: none;
-    }
-    }
-    h2{
-        margin-left: 35px;
-    }
-    #text2{
-        font-family: verdana;
-        font-size: 40px;
-        color: white;
-        margin: 50px 0px 10px 0px;
-    }
-    #text1{
-        font-size: 30px;
-        color: white;
-        font-family: verdana;
-        max-width: 1000px;
-    }
-    #position-graph{
-        display: flex;
-        margin-left: 60px;
-        color: white;
-        font-family: verdana;
-    }
-    #graph1{   
-        margin-right: 5px;
-        height: 35px;
-        text-align: center;
-        background-color: black;
-        width: 50px;
-        transition: 0.5s;
-    }
-    #graph1:hover{
-        height: 80px;
-        border-radius: 5px;
-        background-color: #c4bd00;
-    }
-    #graph2{
-        margin-right: 5px;
-        height: 35px;
-        text-align: center;
-        background-color: black;
-        width: 50px;
-        transition: 0.5s;
-    }
-    #graph2:hover{
-        border-radius: 5px;
-        height: 80px;
-        background-color: #c4bd00;
-    }
-    #graph3{
-        margin-right: 5px;
-        height: 35px;
-        text-align: center;
-        background-color: black;
-        width: 50px;
-        transition: 0.5s;
-    }
-    #graph3:hover{
-        border-radius: 5px;
-        height: 50px;
-        background-color: #ff3f00;
-    }
-    #graph4{
-        margin-right: 5px;
-        height: 35px;
-        text-align: center;
-        background-color: black;
-        width: 70px;
-        transition: 0.5s;
-    }
-    #graph4:hover{
-        border-radius: 5px;
-        height: 35px;
-        background-color: blue;
-    }
-    #ervaring{
-        color: white;
-        font-family: verdana;
-    }
-    .graph-text{
-        margin: 7px 0px 0px 0px;
-    }
-    .graph-text:hover{
-        cursor: default;
-    }
-    h1{
-        font-size: 50px;
-    }
-    .home{
-        font-size: 100px;
-    }
-    #news1{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news1.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #news2{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news2.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #news3{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news3.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #news4{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news4.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #news5{
-        display: table;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(foto/news5.jpg);
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #game, #vloot, #space, #tools, #layout, #robot, #food{
-        font-size: 100px;
-    }
-    #home{
-        font-size: 100px;
-    }
+body{
+	background: url(afbeeldingen/portfolioBG.jpg) no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bg-1{
+	background-image: url(afbeeldingen/some-more-wood.jpg);
+}
+header{
+	text-align: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+a{ 
+	color: white;
+	margin-right: 50px;
+	text-decoration: none;
+	color: black;
+	font-family: verdana;
+	font-size: 20px;
+}
+p{
+	display: inline;
+	color: white; 
+}
+#home{
+	color: #edda0e;
+}
+h1{
+	color: white;
+	max-width: 1100px;
+	min-width: 300px;
+	font-family: verdana;
+	font-weight: bold;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+#title{
+	color: #edda0e;
+}
+.mySlides{
+	width: 800px;
+	height: 500px;
+	background-color: gray;
+	margin: 50px;
+}
+#files{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#one{
+	background-image: url(afbeeldingen/recepten.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#two{
+	background-image: url(afbeeldingen/space2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#three{
+	background-image: url(afbeeldingen/game.png);
+	background-size: cover;
+	background-position: center;
+}
+#four{
+	background-image: url(afbeeldingen/de-vloot.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#five{
+	background-image: url(afbeeldingen/handy.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#six{
+	background-image: url(afbeeldingen/layout.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#seven{
+	background-image: url(afbeeldingen/calculator.jpg);
+	background-size: cover;
+	background-position: center;	
+}
+#eigth{
+	background-image: url(afbeeldingen/mastermind.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.imagetext{
+	background-color: rgba(48, 48, 48, 0.7);
+	text-align: center;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.image-text{
+	vertical-align: middle;
+	display: table-cell;
+	font-size: 30px;
+	font-family: verdana;
+}
+.imagetext:hover{
+	cursor: default;
+}
+.ondertext{
+	color: white;
+	margin-left: 40px;
+	transition: .2s;
+}
+.ondertext:hover{
+	color: #edda0e;
+}
+.ondertitel:hover{
+	color: #edda0e;
+}
+img{
+	height:	250px;
+	width: 250px;
+	filter: blur(2px);
+}
+#doei{
+	font-family: verdana;
+	font-size: 23px;
+	display: inline;
+}
+#section-1{
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 250px;
+	height: 250px;
+}
+#section-2{
+	width: 500px;
+	height: 250px;
+}
+h2{
+	margin: 0;
+	color: white;
+	font-family: verdana;
+}
+h2:hover{
+	cursor: default;
+}
+#section-3{
+	display: flex;
+	flex-wrap: wrap;
+	width: 1100px;
+	height: 250px;
+	margin: 50px 0px 0px 50px;
+}
+#section-4{
+	width: 900px;
+	margin: 50px 0px 0px 50px;
+}
+#hobby-text{
+	font-family: verdana;
+	font-size: 20px;
+}
+#html, #css, #js{
+	display: table;
+	width: 1000px;
+	height: 50px;
+	background-color: #6d6d6d;
+	border: 1px solid #edda0e;
+}
+.ervaring-text{
+	display: table-cell;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-family: verdana;
+	vertical-align: middle;
+}
+.ervaring-text:hover{
+	cursor: default;
+}
+#flex{
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+#bgcolor-1{
+	background-color: #edda0e;
+	display: table;
+	height: 50px;
+	width: 0px;
+	transition: 2s;
+}
+#html:hover #bgcolor-1{
+	background-color: #edda0e;
+	width: 600px;
+	height: 50px;
+}
+#bgcolor-2{
+	background-color: #edda0e;
+	display: table;
+	height: 50px;
+	width: 0px;
+	transition: 2s;
+}
+#css:hover #bgcolor-2{
+	background-color: #edda0e;
+	width: 600px;
+	height: 50px;
+}
+#bgcolor-3{
+	background-color: #edda0e;
+	display: table;
+	height: 50px;
+	width: 0px;
+	transition: 2s;
+}
+#js:hover #bgcolor-3{
+	background-color: #edda0e;
+	width: 400px;
+	height: 50px;
+}
+.procent{
+	display: none;
+	transition: 5s;
+
+}
+#html:hover .procent{
+	display: table-cell;
+	padding-left: 10px;
+	color: black;
+	cursor: default;
+	font-family: verdana;
+	vertical-align: middle;
+}
+#css:hover .procent{
+	display: table-cell;
+	padding-left: 10px;
+	color: black;
+	cursor: default;
+	font-family: verdana;
+	vertical-align: middle;
+}
+#js:hover .procent{
+	display: table-cell;
+	padding-left: 10px;
+	color: black;
+	cursor: default;
+	font-family: verdana;
+	vertical-align: middle;
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Calculator</title>
+	<script src="https://use.fontawesome.com/00fe25a6ad.js"></script>
+</head>
+<body>
+	<main>
+		<div id="calculator">
+			<div id="answer">
+				<input type="text" class="textTwee" id="answer-text">
+			</div>
+			<div id="display">
+				<input type="text" class="text" id="display-text">
+			</div>
+			<input type="button" id="reset" class="button" value="C" onclick="input('c')">
+			<input type="button" id="plus" class="button" value="+" onclick="operator('+')">
+			<input type="button" class="button" value="7" onclick="input(this.value)">
+			<input type="button" class="button" value="8" onclick="input(this.value)">
+			<input type="button" class="button" value="9" onclick="input(this.value)">
+			<input type="button" class="button" value="-" onclick="operator('-')">
+			<input type="button" class="button" value="4" onclick="input(this.value)">
+			<input type="button" class="button" value="5" onclick="input(this.value)">
+			<input type="button" class="button" value="6" onclick="input(this.value)">
+			<input type="button" class="button" value="×" onclick="operator('*')">
+			<input type="button" class="button" value="1" onclick="input(this.value)">						
+			<input type="button" class="button" value="2" onclick="input(this.value)">
+			<input type="button" class="button" value="3" onclick="input(this.value)">
+			<input type="button" class="button" value="÷" onclick="operator('/')">
+			<input type="button" class="button" value="0" onclick="input(this.value)">						
+			<input type="button" class="button" value="." onclick="input(this.value)">			
+			<input type="button" id="equals" class="button" value="=" onclick="answer()">	
+		</div>
+	</main>
+</body>
+<script src="index.js"></script>
+</html>

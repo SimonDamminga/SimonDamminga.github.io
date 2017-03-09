@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(trippy.jpg);
+}
+main{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#calculator{
+	position: absolute;
+	height: 900px;
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.button{
+	border-radius: 4px;
+	display: table;
+	margin: 2px 2px 2px 2px;
+	text-align: center;
+	height: 130px;
+	width: 130px;
+	background-color: #002b70;
+	color: white;
+	font-family: verdana;
+	font-size: 30px;
+	font-weight: bold;
+	border: none;
+	transition: .2s;
+}
+.button:hover{
+	background-color: #0c0956;
+	border-radius: 30%;
+	cursor: pointer;
+}
+#awnser{
+	background-color: white;
+	display: table;
+	height: 30px;
+	width: 545px;
+	margin-bottom: 35px;
+	margin-top: 25px;
+	box-shadow: 2px 2px black;
+}
+#display{
+	display: table;
+	height: 50px;
+	width: 550px;
+	margin-bottom: 20px;
+	background-color: white;
+	box-shadow: 2px 2px black;
+	
+}
+.text{
+	font-family: verdana;
+	display: table-cell;
+	vertical-align: middle;
+	height: 50px;
+	width: 550px;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 30px;
+}
+.textTwee{
+	height: 50px;
+	width: 400px;
+	text-align: right;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 30px;
+	padding-right: 10px;
+	font-family: verdana;
+	color: #8c0000;
+	font-weight: bold;
+}
+#equals{
+	margin-left: 135px;
+	background-color: white;
+	color: black;
+}
+#plus{
+	margin-left: 270px;
+}
+#reset{
+	background-color: #960000;
+}
+@keyframes text-color{
+	0% {color: white;}
+	10% {color: black;}
+	20% {color: dark-blue;}
+	30% {color: blue;}
+	40% {color: purple;}
+	50% {color: blue;}
+	60% {color: dark-blue}
+	70% {color: black;}
+	80% {color: white;}
+	90% {color: white;}
+	100% {color: white;}
+
+}
