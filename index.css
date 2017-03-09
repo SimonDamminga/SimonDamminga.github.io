@@ -2,12 +2,10 @@ html{
 	user-select: none;
 }
 body{
-	background: url(afbeeldingen/portfolioBG.jpg) no-repeat center center fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #3d3d3d;
 }
 #bg-1{
-	background-image: url(afbeeldingen/some-more-wood.jpg);
+	background-color: #3d3d3d;
 }
 header{
 	text-align: right;
