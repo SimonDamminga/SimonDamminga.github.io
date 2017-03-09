@@ -250,3 +250,6 @@ h2:hover{
 	font-family: verdana;
 	vertical-align: middle;
 }
+#settings:hover{
+	color: #edda0e;
+}
