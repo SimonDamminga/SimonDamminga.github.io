@@ -252,4 +252,11 @@ h2:hover{
 }
 #settings:hover{
 	color: #edda0e;
+	cursor: pointer;
+}
+i{
+	transition: .8s;
+}
+i:hover{
+	transform: rotate(140deg);
 }
