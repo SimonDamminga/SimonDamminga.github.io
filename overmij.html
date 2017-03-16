@@ -9,13 +9,30 @@
 	<meta name="theme-color" content="#3d3d3d">
 	<title>Mijn portfolio</title>
 </head>
-<body id="bg-1">
+<body id="background" onload="age()">
 	<header>
-		<a href="index.html"><p>Home</p></a>
-		<a href="overmij.html"><p id="home">Over mij</p></a>
-		<a href="opdrachten.html"><p>Opdrachten</p></a>
-		<a href="https://github.com/SimonDamminga"><p>Github</p></a>
-		<a><p id="settings"><i class="fa fa-cog" aria-hidden="true"></i></p></a>
+		<div id="nav">
+			<div class="nav-link"><a href="index.html"><p>Home</p></a></div>
+			<div class="nav-link"><a href=""><p id="home">Over mij</p></a></div>
+			<div class="nav-link"><a href="opdrachten.html"><p>Opdrachten</p></a></div>
+			<div class="nav-link"><a href="https://github.com/SimonDamminga"><p>Github</p></a></div>
+			<div class="nav-link"><a><p id="settings"><i onclick="show()" class="fa fa-bars" aria-hidden="true"></i></p></a></div>
+		</div>
+		<section id="settings-menu">
+			<div id="flex-a">
+				<p id="settings-info-text">Verander Achtergrondkleur</p>
+				<div class="options" onclick="color('#002b72', '#ff00f6')"><div class="ball" id="Blauw"></div><div class="text-center"><p class="color-text">Blauw</p></div></div>
+				<div class="options" onclick="color('#661010', '#106666')"><div class="ball" id="Rood"></div><div class="text-center"><p class="color-text">Rood</p></div></div>
+				<div class="options" onclick="color('#00b587', '#8700b5')"><div class="ball" id="Groen"></div><div class="text-center"><p class="color-text">Groen</p></div></div>
+				<div class="options" onclick="color('#3d3d3d', '#edda0e')"><div class="ball" id="Defauld"></div><div class="text-center"><p class="color-text">Defauld</p></div></div>
+				<hr>
+				<div class="options"><div class="text-center"><a id="download" href="CV-SD-rev_1.doc" download><p class="settings-text"><i class="fa fa-download" aria-hidden="true"></i> Download's: <br>Download CV</p></a></div></div>
+				<div class="options" onclick="copy(document.getElementById('phone').innerHTML)"><div class="text-center"><p class="settings-text"><i class="fa fa-phone" aria-hidden="true"></i> Tel: <br><span id="phone">06-30392502</span></p></div></div>
+				<div class="options" onclick="copy(document.getElementById('holdtext').innerHTML)"><div class="text-center"><p class="settings-text"><i class="fa fa-envelope-o" aria-hidden="true"></i> E-mail: <br><span id="holdtext">simon.damminga@gmail.com</span></p></div></div>
+				<hr>
+				<div class="options" id="feedback" onclick="nee()"><div class="text-center"><p class="settings-text"><i class="fa fa-commenting-o" aria-hidden="true"></i><br> Feedback</p></div></div>
+			</div>
+		</section>
 	</header>
 	<main>
 		<section id="flex">
@@ -23,7 +40,7 @@
 				<img src="afbeeldingen/profile.png">
 			</section>
 			<article id="section-2">
-				<p id="doei">Hallo, mijn naam is Simon Damminga ik ben 17 jaar en ik woon in Bleskensgraaf. Ik doe de opleiding AO op het Da Vinci college in Dordrecht.<br><br> Deze opleiding heb ik gekozen omdat ik programmeren altijd al interesant heb gevonden en ik wilde altijd al zelf programma's schrijven.</p> 
+				<p id="doei">Hallo, mijn naam is Simon Damminga ik ben <span id="age"></span> jaar en ik woon in Bleskensgraaf. Ik doe de opleiding AO op het Da Vinci college in Dordrecht.<br><br> Deze opleiding heb ik gekozen omdat ik programmeren altijd al interesant heb gevonden en ik wilde altijd al zelf programma's schrijven.</p> 
 			</article>
 			<section id="section-3">
 				<h2>Ervaring</h2>
