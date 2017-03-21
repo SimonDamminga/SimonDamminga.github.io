@@ -188,7 +188,6 @@ h2:hover{
 	width: 300px;
 	height: 50px;
 	background-color: #6d6d6d;
-	border: 1px solid #edda0e;
 }
 .ervaring-text{
 	display: table-cell;
@@ -391,7 +390,7 @@ i{
 	transition: .8s;
 }
 i:hover{
-	transform: rotate(180deg);
+	transform: rotate(18	0deg);
 }
 }
 @media screen and (min-width: 769px){
