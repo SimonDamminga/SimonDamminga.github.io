@@ -276,6 +276,7 @@ h2:hover{
 	cursor: pointer;
 }
 #settings-menu{
+	z-index: 1;
 	display: none;
 	height: 700px;
 	width: 300px;
