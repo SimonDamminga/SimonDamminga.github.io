@@ -114,7 +114,7 @@ function reset(){
 	code = [];
 	document.getElementById("codegen").style.backgroundColor = "#7f1515";
 	document.getElementById("codegen").innerHTML = "Maak code";
-	document.getElementById("mainwindow").style.backgroundColor = "#c4c4c4"
+	document.getElementById("mainwindow").style.backgroundColor = "#c4c4c4";
 }
 function undo(){
 	playerCode.pop();
