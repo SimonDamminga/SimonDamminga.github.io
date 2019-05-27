@@ -33,13 +33,17 @@ function nee(){
 function age(){
 	var dateNow = new Date();
 	var dd = dateNow.getDay();
-	var mm = dateNow.getMonth() +1;
+	var mm = dateNow.getMonth() + 1;
 	var yy = dateNow.getYear(); 
 
-	if(dd >= 28 && mm >= 3){
-		document.getElementById('age').innerHTML = yy - 100;
+	if(mm >= 3){
+		if(dd >= 28){
+			document.getElementById('age').innerHTML = yy - 100;
+		}else{
+			document.getElementById('age').innerHTML = yy - 99;
+		}
 	}else{
-		document.getElementById('age').innerHTML = yy - 1- 100;
+		document.getElementById('age').innerHTML = yy - 99;
 	}
 
 }
