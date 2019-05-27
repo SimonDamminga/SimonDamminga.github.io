@@ -38,12 +38,12 @@ function age(){
 
 	if(mm >= 3){
 		if(dd >= 28){
-			document.getElementById('age').innerHTML = yy - 100;
+			document.getElementById('age').innerHTML = yy - 99;
 		}else{
-			document.getElementById('age').innerHTML = yy - 101;
+			document.getElementById('age').innerHTML = yy - 100;
 		}
 	}else{
-		document.getElementById('age').innerHTML = yy - 101;
+		document.getElementById('age').innerHTML = yy - 100;
 	}
 
 }
