@@ -31,19 +31,5 @@ function nee(){
 	alert("IK ZIJ TOCH NEE!!!!");
 }
 function age(){
-	var dateNow = new Date();
-	var dd = dateNow.getDay();
-	var mm = dateNow.getMonth() + 1;
-	var yy = dateNow.getYear(); 
-
-	if(mm >= 3){
-		if(dd >= 28){
-			document.getElementById('age').innerHTML = yy - 99;
-		}else{
-			document.getElementById('age').innerHTML = yy - 100;
-		}
-	}else{
-		document.getElementById('age').innerHTML = yy - 100;
-	}
-
+	document.getElementById('age').innerHTML = Math.floor((new Date() - new Date(2000, 03, 28).getTime()) / 3.15576e+10);
 }
