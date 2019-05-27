@@ -40,10 +40,10 @@ function age(){
 		if(dd >= 28){
 			document.getElementById('age').innerHTML = yy - 100;
 		}else{
-			document.getElementById('age').innerHTML = yy - 99;
+			document.getElementById('age').innerHTML = yy - 101;
 		}
 	}else{
-		document.getElementById('age').innerHTML = yy - 99;
+		document.getElementById('age').innerHTML = yy - 101;
 	}
 
 }
